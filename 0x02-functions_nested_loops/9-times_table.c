@@ -19,6 +19,7 @@ rep = a * b;
 if (b == 0)
 {
 putchar('0' + rep);
+}
 else if (rep < 10)
 {
 putchar(' ');
@@ -28,10 +29,12 @@ else
 {
 putchar('0' + rep / 10);
 putchar('0' + rep % 10);
+}
 if (b < 9)
 {
 putchar(',');
 putchar(' ');
+}
 b++;
 }
 putchar('\n');
