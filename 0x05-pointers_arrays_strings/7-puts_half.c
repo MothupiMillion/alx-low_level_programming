@@ -15,11 +15,11 @@ len = len / 2;
 if (l % 2 != 0)
 {
 len++;
+}
 for (i = 0; i < l; i++)
 {
 if (i >= len)
 _putchar(*(str + i));
 }
 _putchar('\n');
-}
 }
